@@ -4,8 +4,6 @@ using System.Collections.Generic;
 namespace student{
     class Program {
         static void Main(string[] args){
-            Dictionary<string,string> EmployeeList=new Dictionary<string, string>(){
-            {"name",null},{"age",null},{"weight",null},{"height",null}};
             string[] student =System.IO.File.ReadAllLines(@"E:\projects\C#_Project\csharp\student\studentProfile.txt");
             int num = Int32.Parse(student[0]),n =num*4;
             var array = new List<studentNames>();
@@ -31,7 +29,7 @@ namespace student{
                 array[i].weight=student[j++];
                 array[i].height=student[j++];
             }
-            
+            Console.WriteLine("hi");
         }
     }
 }
