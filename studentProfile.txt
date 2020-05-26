@@ -1,0 +1,13 @@
+3
+name:amir
+age:24
+weight:85
+height:190
+name:ali
+age:20
+weight:70
+height:180
+name:rima
+age:22
+weight:78
+height:188
